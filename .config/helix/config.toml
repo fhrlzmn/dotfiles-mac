@@ -1,0 +1,23 @@
+theme = 'catppuccin_mocha'
+
+[editor]
+line-number = 'relative'
+mouse = false
+true-color = true
+bufferline = 'multiple'
+color-modes = true
+auto-format = true
+
+[editor.statusline]
+mode.normal = 'NORMAL'
+mode.insert = 'INSERT'
+mode.select = 'SELECT'
+
+[editor.cursor-shape]
+insert = 'bar'
+
+[editor.file-picker]
+hidden = false
+
+[keys.insert]
+j = { j = 'normal_mode', k = 'normal_mode'}
